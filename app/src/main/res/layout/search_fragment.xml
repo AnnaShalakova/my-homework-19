@@ -39,13 +39,12 @@
         <com.google.android.material.textfield.TextInputEditText
             android:id="@+id/et_search"
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"
+            android:layout_height="51dp"
             android:hint="@string/search_hint"
-            android:maxLines="1"
             android:inputType="text"
             android:maxLength="11"
-            android:textColor="@color/text_color"
-            />
+            android:maxLines="1"
+            android:textColor="@color/text_color" />
     </com.google.android.material.textfield.TextInputLayout>
 
     <com.google.android.material.textfield.TextInputLayout

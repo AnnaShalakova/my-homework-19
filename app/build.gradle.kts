@@ -91,6 +91,8 @@ dependencies {
     implementation(libs.hilt.navigation.compose)
     implementation(libs.androidx.appcompat)
     implementation(libs.material)
+    implementation(libs.androidx.uiautomator)
+    implementation(libs.androidx.espresso.contrib)
     kapt(libs.hilt.compiler)
     kapt(libs.hilt.compiler.android)
 
@@ -127,4 +129,5 @@ dependencies {
     androidTestImplementation(libs.compose.ui.test.junit)
     androidTestImplementation(libs.junit.ext)
     androidTestImplementation(libs.espresso.core)
+
 }
